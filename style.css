@@ -1,0 +1,67 @@
+#app {
+  display: none;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+#view {
+  display: none;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+#login {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+#profile{
+  background-color: lightgray;
+  width:50%;
+  margin: auto;
+  padding: 25px;
+  border-radius: 20px;
+}
+.course{
+  cursor: pointer;
+  background-color:rgb(5, 169, 5);
+  padding: 15px;
+  width:50%;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  display: block;
+}
+.course:hover{
+  background-color: green;
+}
+.course:active{
+  background-color: darkgreen;
+}
+#course{
+  display: none;
+}
+.assignment{
+  background-color:aqua;
+  padding: 1px;
+  width:50%;
+  margin: auto;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  display: block;
+}
+#assignment{
+  display: none;
+}
+#add{
+  margin-bottom: 10px;;
+}

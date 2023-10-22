@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grade Stresser</title>
+  </head>
+  <body>
+    <div id="login">
+      <h1>Login Page <br> Note: scores may not be entirely accurate, and will only work within MCPS</h1>
+      <label for="text">ID</label>
+      <input type="text" id="username">
+      <label for="password">Password</label>
+      <input type="password" id="password">
+      <button id="loginsubmit">Submit</button>
+    </div>
+    <div id="app">
+      <h1 id="title">Grade Stresser</h1>
+      <h2 id="subtitle">Stressed about your grades? With Grade Stresser, you can set custom points and calculate a hypothetical grade!</h2>
+      
+      <hr>
+      <h1 id="period"></h1>
+      <div id="profile">
+        <img/>
+        <h3></h3>
+      </div>
+      <hr>
+      <div id="course">
+        <h1></h1>
+        <h2></h2>
+        <h3></h3>
+      </div>
+    </div>
+    <div id="view">
+      <button id="back">Back</button>
+      <h1 id="viewtitle"></h1>
+      <h2 id="viewinfo"></h2>
+      <hr>
+      <h2>Assignments: </h2>
+      <div id="assignment">
+        <button>Edit</button>
+        <h3></h3>
+        <h4></h4>
+      </div>  
+      <button id="add">+</button>
+      <div id="assignmentslist">
+      </div>
+      <hr>
+      <h1 id="grade"></h1>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
